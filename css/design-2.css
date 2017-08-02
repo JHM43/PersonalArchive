@@ -1,0 +1,94 @@
+body {
+	background-color: #afafaf;
+	font-family: Helvetica,Arial,sans-serif;
+	margin: 30px 10px 0px 10px;
+	color: #fff;
+	}
+
+a, a:visited { 
+	color: #2df50c; 
+	text-decoration: none; 
+	border-bottom: 3px solid #2df50c;
+
+}
+
+a:hover{
+	color: #666;
+	border-bottom: 3px solid lime;
+}
+
+h1 {
+	transform: rotate(-90deg);
+	transform-origin: left top 0;
+	float: left;
+	position: absolute;
+	top: 80%;
+	left: 50px;
+	font-family: Helvetica;
+	font-weight: 500px;
+	font-size: 48px; 
+	z-index: 2;
+
+}
+
+p {
+	font-size: 35px; 
+	line-height: 44px;
+	font-weight: 500;
+	z-index: 1;
+	position: absolute;
+	}
+
+label { 
+	font-weight: normal;
+	font-size: 28px; 
+	line-height: 40px; 
+	margin-bottom: 0px;
+	vertical-align: bottom;
+	text-transform: uppercase;
+	}	
+
+.frame {
+	width:98%;
+	height:1400px;
+	position:absolute; 
+	top:1%; 
+	left:1%;
+}
+
+.box-1 {
+	height: 530px;
+	width: 450px;
+	background-color: blue;
+}
+
+
+
+.bio{
+	margin-top: 60px;
+	visibility: visible;
+	}	
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+
+
+
+

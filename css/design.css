@@ -1,0 +1,72 @@
+body {
+	background-color: #48f2d4;
+	font-family: Helvetica,Arial,sans-serif;
+	margin-top: 40px;
+	color: #d7fcf6;
+	}
+
+a, a:visited { 
+	color: #0ca68b; 
+	text-decoration: none; 
+	border-bottom: 3px solid #0ca68b;
+
+}
+
+a:hover{
+	color:lime;
+	border-bottom: 3px solid lime;
+}
+
+p {
+	font-size: 36px; 
+	line-height: 44px;
+	font-weight: 500;
+	}
+
+label { 
+	font-weight: normal;
+	font-size: 28px; 
+	line-height: 40px; 
+	margin-bottom: 0px;
+	vertical-align: bottom;
+	text-transform: uppercase;
+	}	
+
+.frame {
+	width:98%;
+	height:1400px;
+	position:absolute; 
+	top:1%; 
+	left:1%;
+}
+
+
+
+
+
+.bio{
+	margin-top: 60px;
+	visibility: visible;
+	}	
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+
+
